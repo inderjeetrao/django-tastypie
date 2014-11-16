@@ -4,7 +4,7 @@ import django
 
 # __all__ = ['get_user_model', 'get_username_field', 'AUTH_USER_MODEL']
 #
-# AUTH_USER_MODEL = getattr(settings, 'AUTH_USER_MODEL', 'auth.User')
+AUTH_USER_MODEL = getattr(settings, 'AUTH_USER_MODEL', 'auth.User')
 
 __all__ = ['User']
 # Django 1.5+ compatibility
