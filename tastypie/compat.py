@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-# from django.conf import settings
+from django.conf import settings
 import django
 
 # __all__ = ['get_user_model', 'get_username_field', 'AUTH_USER_MODEL']
